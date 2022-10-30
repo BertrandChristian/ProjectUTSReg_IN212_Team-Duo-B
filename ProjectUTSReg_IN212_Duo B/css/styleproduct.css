@@ -1,0 +1,211 @@
+footer {
+    position: fixed;
+    display: block;
+    background-color: darkgrey;
+    height: 15px;
+    padding: 3px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.logo {
+    display: inline-block;
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    float: right;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a.active {
+    background-color: red;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: darkgrey;
+    color: black;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 40px;
+    top: 0;
+    background: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../images/latar\ produk2.jpg);
+    background-size: 1300px;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.kotak {
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    font: bold 16px;
+}
+
+.kotak .kotak-kiri {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.kotak .kotak-link {
+    color: white;
+    margin: 20px 0 12px;
+}
+
+.kotak .kotak-link a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: white;
+}
+
+.dasar h4 {
+    text-align: center;
+    font-size: 40px;
+    margin: 25px 0 50px 0;
+}
+
+.dasar .box {
+    width: 75%;
+    height: auto;
+    padding: 10px 0 50px 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.dasar .box .card {
+    width: 450px;
+    height: 460px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 0 10px purple;
+}
+
+.dasar .box .card .image img {
+    width: 200px;
+    height: 240px;
+    display: flex;
+    margin: 0 auto;
+    transition: 0.2s;
+    margin-bottom: 25px;
+    filter: drop-shadow(2px 13px 5px purple);
+}
+
+.dasar .box .card:hover .image img {
+    transform: scale(1.1);
+}
+
+.dasar .box .text {
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dasar .box .text p.harga{
+    font-size: 22px;
+    margin: 20px 0 10px 0;
+}
+
+.dasar .box .text p.pengiriman{
+    color: purple;
+    margin-bottom: 20px;
+}
+
+.dasar .box .text .button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dasar .box .text .button .cart,.beli{
+    width: 145px;
+    background-color:red;
+    padding: 8px 0;
+    color: white;
+    border: 0;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dasar .box .text .button .beli:hover{
+    background: grey;
+    transition: 0.2 ease;
+}
+
+.dasar .box .text .button .cart:hover{
+    background: grey;
+    transition: 0.2 ease;
+}

@@ -1,0 +1,129 @@
+footer {
+    position: fixed;
+    display: block;
+    background-color: darkgrey;
+    height: 15px;
+    padding: 3px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.logo {
+    display: inline-block;
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    float: right;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a.active {
+    background-color: red;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: darkgrey;
+    color: black;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 40px;
+    top: 0;
+    background: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../images/bumi.jpg);
+    background-size: px;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.kotak {
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    font: bold 16px;
+}
+
+.kotak .kotak-kiri {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.kotak .kotak-link {
+    color: white;
+    margin: 20px 0 12px;
+}
+
+.kotak .kotak-link a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    color: red;
+}
+
+.wadah {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
